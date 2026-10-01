@@ -16,10 +16,10 @@
 <body>
 <h1>Privacy Policy — Dart-o-matic</h1>
 <p class="meta">
-<strong>Effective date:</strong> 29 September 2026<br>
+<strong>Effective date:</strong> 1 October 2026<br>
 <strong>Developer:</strong> EagleSoft (Aleš Orel)<br>
 <strong>Contact:</strong> ales.orel@comland.com<br>
-<strong>App:</strong> Dart-o-matic (<code>com.eaglesoft.dartomatic</code>), Android
+<strong>App:</strong> Dart-o-matic (<code>com.eaglesoft.dartomatic</code>), Android and iOS
 </p>
 
 <h2>Summary</h2>
@@ -35,7 +35,8 @@ app.</p>
 
 <h2>Announcer voice</h2>
 <p>The announcer's voice is generated on your device by your device's own
-text-to-speech engine (for example Google Speech Services on Android). The app
+text-to-speech engine (for example Google Speech Services on Android, or Apple's
+built-in speech on iPhone and iPad). The app
 only asks the engine to speak a fixed set of darts calls; it does not send any
 of your data anywhere.</p>
 
@@ -46,7 +47,8 @@ at most every few minutes, a full-screen ad between legs. Ads are served by
 measure ads, Google may collect and process data as described in Google's
 privacy policy, including:</p>
 <ul>
-  <li>Device identifiers (the Android advertising ID)</li>
+  <li>Device identifiers (the Android advertising ID; on iOS, Apple's advertising
+  identifier (IDFA) only if you allow tracking, see below)</li>
   <li>IP address and coarse location derived from it</li>
   <li>Ad interaction data (impressions, clicks) and diagnostic data</li>
 </ul>
@@ -68,12 +70,21 @@ the app's main menu.</p>
 which use limited data (such as IP address) for frequency capping and fraud
 prevention.</p>
 
+<h2>Tracking permission (iOS)</h2>
+<p>On iPhone and iPad, a short explanation is followed by Apple's App Tracking
+Transparency prompt. Only if you tap "Allow" can the advertising identifier
+(IDFA) be used for ads; if you decline, it is not shared and ads are served
+without it. You can change this at any time in iOS Settings → Privacy &amp;
+Security → Tracking.</p>
+
 <h2>In-app purchase</h2>
 <p>The app offers a single one-time purchase ("Remove ads") processed entirely
-by <strong>Google Play Billing</strong>. The developer never receives your
-payment details. The purchase is tied to your Google account and is restored
-automatically if you reinstall the app. After the purchase, no ads are shown
-and no advertising SDK is initialised.</p>
+by <strong>Google Play Billing</strong> (Android) or the <strong>Apple App
+Store</strong> (iOS). The developer never receives your payment details. The
+purchase is tied to your Google account or Apple Account. On Android it is
+restored automatically if you reinstall the app; on iOS use <strong>"Restore
+purchases"</strong> in the main menu. After the purchase, no ads are shown and
+no advertising SDK is initialised.</p>
 
 <h2>Data sharing and selling</h2>
 <p>We do not collect, sell, or share any personal data ourselves. The only
